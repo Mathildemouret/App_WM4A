@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Input</title>
+    </head>
+
+    <body>
+            <script src="js/input2.js"></script>
+        <center>
+           <img id="myImg" src="img/pikachu2.jpg">
+
+            <button id="btn">Changer</button>
+        </center>
+        
+        
+    </body>
+
+</html>

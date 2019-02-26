@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Input</title>
+    </head>
+
+    <body>
+            <script src="js/form.js"></script>
+        <center>
+            <form id="form">
+           <div>
+
+           Sexe : <input type="radio" id="sexe1"
+           name="sexe" value="homme">
+          <label for="sexe1">Homme</label>
+      
+          <input type="radio" id="sexe2"
+           name="sexe" value="femme">
+          <label for="sexe2">Femme</label>
+           </div>
+           <p>Nom : <input type="text" id="nom"></p>
+           <p>Prenom : <input type="text" id="prenom"></p>
+           <p>Age : <input type="text" id="age"></p>
+           <p>Pseudo : <input type="text" id="pseudo"></p>
+           <p>Mot de passe : <input type="password" id="mdp"></p>
+           <p>Confirmer le mot de passe : <input type="password" id="mdp2"></p>
+           <p>Pays : <select id="select">
+                <option value="default">Autres</option>
+                <option value="France">France</option>
+                <option value="Angleterre">Angleterre</option>
+                <option value="Suisse">Suisse</option>
+                <option value="Monaco">Monaco</option>
+                <option value="Andorre">Andorre</option>
+                <option value="Luxembourg">Luxembourg</option>
+            </select></p>
+            <p><input type="checkbox" id="sub"> Je desire recevoir la newsletter chaque mois.</p>
+            <button id="btn">Valider</button>
+            <button id="reset">Remettre par defaut</button>
+        </form>
+        </center>
+        
+        
+    </body>
+
+</html>

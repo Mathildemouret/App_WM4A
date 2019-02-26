@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app ="todoApp">
+
+    <head>
+        <title> Todo</title>
+        <meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+    </head>
+
+    <body ng-controller ="TodoCtrl">
+
+        <form ng-submit ="addTask()">
+            Ajouter la task : <input type="text" ng-model="taskName" />
+            <input type="submit" value="Ajouter" />
+        </form>
+
+        <br/>
+        <br/>
+
+        <div ng-repeat="ta in taskSet">
+            + {{ta.taskName}}
+        </div>
+
+        <script src = "js/angular.min.js"></script>
+        <script src = "js/tache.js"></script>
+
+    </body>
+</html>
